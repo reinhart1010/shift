@@ -1,1 +1,133 @@
-@import url('https://raw.githubusercontent.com/reinhart1010/dotfiles/main/halfmoon.css');
+/* The official theme for Halfmoon */
+
+:root {
+  --font-family-sans-serif-display: "Segoe UI Variable Display", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, "HarmonyOS Sans", Ubuntu, "Roboto Flex", Roboto, "Helvetica Neue", FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif-small: "Segoe UI Variable Small", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, "HarmonyOS Sans", Ubuntu, "Roboto Flex", Roboto, "Helvetica Neue", FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif-text: "Segoe UI Variable Text", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, "HarmonyOS Sans", Ubuntu, "Roboto Flex", Roboto, "Helvetica Neue", FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-serif: ui-serif, "Aptos Serif", Constantia, Charter, "STIX Two Text", "Libertinus Serif", "Linux Libertine O", "Linux Libertine G", "Linux Libertine", "DejaVu Serif Condensed", "Bitstream Vera Serif Condensed", "Roboto Serif", "Noto Serif", "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --base-border-radius: 0.75rem;
+  --base-font-size: 1.8rem;
+  --badge-border-radius: 0.4rem;
+  --heading-font-weight: 700;
+  --white-bg-color: #ECEFF4;
+  --dark-color-light: #2E3440;
+  --dark-color: #242933;
+  --blue-color: #0ea5e9;
+  --blue-color-light: #38bdf8;
+  --blue-color-very-light: #bae6fd;
+  --blue-color-dark: #0369a1;
+  --blue-color-very-dark: #0c4a6e;
+  --blue-box-shadow-color: rgba(14, 165, 233, 0.3);
+  --blue-box-shadow-color-darker: rgba(14, 165, 233, 0.6);
+  --blue-gradient-foil-light: linear-gradient(-30deg, var(--blue-color) 0%, var(--blue-color-light) 66.7%, var(--blue-color-very-light) 100%);
+  --blue-gradient-foil-dark: linear-gradient(300deg, var(--blue-color-very-dark) 0%, var(--blue-color-dark) 33.3%, var(--blue-color) 100%);
+  --text-color-on-blue-color-bg: #ffffff;
+  --indigo-color: #a855f7;
+  --indigo-color-light: #c084fc;
+  --indigo-color-very-light: #e9d5ff;
+  --indigo-color-dark: #7e22ce;
+  --indigo-color-very-dark: #581c87;
+  --indigo-box-shadow-color: rgba(168, 85, 247, 0.3);
+  --indigo-box-shadow-color-darker: rgba(168, 85, 247, 0.6);
+  --indigo-gradient-foil-light: linear-gradient(-30deg, var(--indigo-color) 0%, var(--indigo-color-light) 66.7%, var(--indigo-color-very-light) 100%);
+  --indigo-gradient-foil-dark: linear-gradient(300deg, var(--indigo-color-very-dark) 0%, var(--indigo-color-dark) 33.3%, var(--indigo-color) 100%);
+  --text-color-on-indigo-color-bg: #ffffff;
+  --teal-color: #14b8a6;
+  --teal-color-light: #2dd4bf;
+  --teal-color-very-light: #99f6e4;
+  --teal-color-dark: #0f766e;
+  --teal-color-very-dark: #134e4a;
+  --teal-box-shadow-color: rgba(20, 184, 166, 0.3);
+  --teal-box-shadow-color-darker: rgba(20, 184, 166, 0.6);
+  --teal-gradient-foil-light: linear-gradient(-30deg, var(--teal-color) 0%, var(--teal-color-light) 66.7%, var(--teal-color-very-light) 100%);
+  --teal-gradient-foil-dark: linear-gradient(300deg, var(--teal-color-very-dark) 0%, var(--teal-color-dark) 33.3%, var(--teal-color) 100%);
+  --text-color-on-teal-color-bg: #ffffff;
+  --green-color: #84cc16;
+  --green-color-light: #a3e635;
+  --green-color-very-light: #d9f99d;
+  --green-color-dark: #4d7c0f;
+  --green-color-very-dark: #365314;
+  --green-box-shadow-color: rgba(132, 204, 22, 0.3);
+  --green-box-shadow-color-darker: rgba(132, 204, 22, 0.6);
+  --green-gradient-foil-light: linear-gradient(-30deg, var(--green-color) 0%, var(--green-color-light) 66.7%, var(--green-color-very-light) 100%);
+  --green-gradient-foil-dark: linear-gradient(300deg, var(--green-color-very-dark) 0%, var(--green-color-dark) 33.3%, var(--green-color) 100%);
+  --text-color-on-green-color-bg: var(--lm-base-text-color);
+  --yellow-color: #eab308;
+  --yellow-color-light: #facc15;
+  --yellow-color-very-light: #fef08a;
+  --yellow-color-dark: #a16207  ;
+  --yellow-color-very-dark: #713f12;
+  --yellow-box-shadow-color: rgba(234, 179, 8, 0.3);
+  --yellow-box-shadow-color-darker: rgba(234, 179, 8, 0.6);
+  --text-color-on-yellow-color-bg: var(--lm-base-text-color);
+  --orange-color: #f97316;
+  --orange-color-light: #fb923c;
+  --orange-color-very-light: #fed7aa;
+  --orange-color-dark: #c2410c;
+  --orange-color-very-dark: #7c2d12;
+  --orange-box-shadow-color: rgba(249, 115, 22, 0.3);
+  --orange-box-shadow-color-darker: rgba(249, 115, 22, 0.6);
+  --orange-gradient-foil-light: linear-gradient(-30deg, var(--orange-color) 0%, var(--orange-color-light) 66.7%, var(--orange-color-very-light) 100%);
+  --orange-gradient-foil-dark: linear-gradient(300deg, var(--orange-color-very-dark) 0%, var(--orange-color-dark) 33.3%, var(--orange-color) 100%);
+  --text-color-on-orange-color-bg: #ffffff;
+  --red-color: #ef4444;
+  --red-color-light: #f87171;
+  --red-color-very-light: #fecaca;
+  --red-color-dark: #991b1b;
+  --red-color-very-dark: #7f1d1d;
+  --red-box-shadow-color: rgba(239, 68, 68, 0.3);
+  --red-box-shadow-color-darker: rgba(239, 68, 68, 0.6);
+  --red-gradient-foil-light: linear-gradient(-30deg, var(--red-color) 0%, var(--red-color-light) 66.7%, var(--red-color-very-light) 100%);
+  --red-gradient-foil-dark: linear-gradient(300deg, var(--red-color-very-dark) 0%, var(--red-color-dark) 33.3%, var(--red-color) 100%);
+  --text-color-on-red-color-bg: #ffffff;
+  --pink-color: #ec4699;
+  --pink-color-light: #f472b6;
+  --pink-color-very-light: #fbcfe8;
+  --pink-color-dark: #9d174d;
+  --pink-color-very-dark: #831843;
+  --pink-box-shadow-color: rgba(236, 72, 153, 0.3);
+  --pink-box-shadow-color-darker: rgba(236, 72, 153, 0.6);
+  --pink-gradient-foil-light: linear-gradient(-30deg, var(--pink-color) 0%, var(--pink-color-light) 66.7%, var(--pink-color-very-light) 100%);
+  --pink-gradient-foil-dark: linear-gradient(300deg, var(--pink-color-very-dark) 0%, var(--pink-color-dark) 33.3%, var(--pink-color) 100%);
+  --text-color-on-pink-color-bg: #ffffff;
+}
+
+.bg-foil-blue, .text-foil-blue { background: var(--blue-gradient-foil-dark); }
+.dark-mode .bg-foil-blue, .dark-mode .text-foil-blue { background: var(--blue-gradient-foil-light); }
+
+.bg-foil-indigo, .text-foil-indigo { background: var(--indigo-gradient-foil-dark); }
+.dark-mode .bg-foil-indigo, .dark-mode .text-foil-indigo { background: var(--indigo-gradient-foil-light); }
+
+.bg-foil-teal, .text-foil-teal { background: var(--teal-gradient-foil-dark); }
+.dark-mode .bg-foil-teal, .dark-mode .text-foil-teal { background: var(--teal-gradient-foil-light); }
+
+.bg-foil-green, .text-foil-green { background: var(--green-gradient-foil-dark); }
+.dark-mode .bg-foil-green, .dark-mode .text-foil-green { background: var(--green-gradient-foil-light); }
+
+.bg-foil-yellow, .text-foil-yellow { background: var(--yellow-gradient-foil-dark); }
+.dark-mode .bg-foil-yellow, .dark-mode .text-foil-yellow { background: var(--yellow-gradient-foil-light); }
+
+.bg-foil-orange, .text-foil-orange { background: var(--orange-gradient-foil-dark); }
+.dark-mode .bg-foil-orange, .dark-mode .text-foil-orange { background: var(--orange-gradient-foil-light); }
+
+.bg-foil-red, .text-foil-red { background: var(--red-gradient-foil-dark); }
+.dark-mode .bg-foil-red, .dark-mode .text-foil-red { background: var(--red-gradient-foil-light); }
+
+.bg-foil-pink, .text-foil-pink { background: var(--pink-gradient-foil-dark); }
+.dark-mode .bg-foil-pink, .dark-mode .text-foil-pink { background: var(--pink-gradient-foil-light); }
+
+.text-foil-blue, .text-foil-indigo, .text-foil-teal, .text-foil-green, .text-foil-yellow, .text-foil-orange, .text-foil-red, .text-foil-pink {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  font-family: var(--font-family-sans-serif-text);
+}
+
+/* For use in Nix */
+.article-wrapper h1, .article-wrapper h2, .content-wrapper .h1, .content-wrapper .h2, .collapse-header {
+  font-family: var(--font-family-sans-serif-display);
+  font-weight: 600;
+}
