@@ -159,49 +159,49 @@
 
 .dark-mode {
   /* Primary Links and Buttons - Light */
-  --dm-link-text-color: var(--primary-color-light);
-  --dm-link-text-color-hover: var(--primary-color);
-  --dm-button-primary-bg-color: var(--primary-color-light);
-  --dm-button-primary-bg-color-hover: var(--primary-color);
-  --dm-button-primary-border-color: var(--primary-color-light);
-  --dm-button-primary-border-color-hover: var(--primary-color);
+  --dm-link-text-color: var(--primary-color-light) !important;
+  --dm-link-text-color-hover: var(--primary-color) !important;
+  --dm-button-primary-bg-color: var(--primary-color-light) !important;
+  --dm-button-primary-bg-color-hover: var(--primary-color) !important;
+  --dm-button-primary-border-color: var(--primary-color-light) !important;
+  --dm-button-primary-border-color-hover: var(--primary-color) !important;
   /* Primary Links and Buttons - Dark */
-  --lm-link-text-color: var(--primary-color);
-  --lm-link-text-color-hover: var(--primary-color-darker);
-  --lm-button-primary-bg-color: var(--primary-color);
-  --lm-button-primary-bg-color-hover: var(--primary-color-darker);
-  --lm-button-primary-border-color: var(--primary-color);
-  --lm-button-primary-border-color-hover: var(--primary-color-darker);
+  --lm-link-text-color: var(--primary-color) !important;
+  --lm-link-text-color-hover: var(--primary-color-darker) !important;
+  --lm-button-primary-bg-color: var(--primary-color) !important;
+  --lm-button-primary-bg-color-hover: var(--primary-color-darker) !important;
+  --lm-button-primary-border-color: var(--primary-color) !important;
+  --lm-button-primary-border-color-hover: var(--primary-color-darker) !important;
   /* Secondary Links and Buttons - Light */
-  --dm-button-secondary-bg-color: var(--secondary-color-light);
-  --dm-button-secondary-bg-color-hover: var(--secondary-color);
-  --dm-button-secondary-border-color: var(--secondary-color-light);
-  --dm-button-secondary-border-color-hover: var(--secondary-color);
+  --dm-button-secondary-bg-color: var(--secondary-color-light) !important;
+  --dm-button-secondary-bg-color-hover: var(--secondary-color) !important;
+  --dm-button-secondary-border-color: var(--secondary-color-light) !important;
+  --dm-button-secondary-border-color-hover: var(--secondary-color) !important;
   /* Secondary Links and Buttons - Dark */
-  --lm-button-secondary-bg-color: var(--secondary-color);
-  --lm-button-secondary-bg-color-hover: var(--secondary-color-darker);
-  --lm-button-secondary-border-color: var(--secondary-color);
-  --lm-button-secondary-border-color-hover: var(--secondary-color-darker);
+  --lm-button-secondary-bg-color: var(--secondary-color) !important;
+  --lm-button-secondary-bg-color-hover: var(--secondary-color-darker) !important;
+  --lm-button-secondary-border-color: var(--secondary-color) !important;
+  --lm-button-secondary-border-color-hover: var(--secondary-color-darker) !important;
   /* Success Links and Buttons - Light */
-  --dm-button-success-bg-color: var(--success-color-light);
-  --dm-button-success-bg-color-hover: var(--success-color);
-  --dm-button-success-border-color: var(--success-color-light);
-  --dm-button-success-border-color-hover: var(--success-color);
+  --dm-button-success-bg-color: var(--success-color-light) !important;
+  --dm-button-success-bg-color-hover: var(--success-color) !important;
+  --dm-button-success-border-color: var(--success-color-light) !important;
+  --dm-button-success-border-color-hover: var(--success-color) !important;
   /* Success Links and Buttons - Dark */
-  --lm-button-success-bg-color: var(--success-color);
-  --lm-button-success-bg-color-hover: var(--success-color-darker);
-  --lm-button-success-border-color: var(--success-color);
-  --lm-button-success-border-color-hover: var(--success-color-darker);
+  --lm-button-success-bg-color: var(--success-color) !important;
+  --lm-button-success-bg-color-hover: var(--success-color-darker) !important;
+  --lm-button-success-border-color: var(--success-color) !important;
+  --lm-button-success-border-color-hover: var(--success-color-darker) !important;
   /* Danger Links and Buttons - Light */
-  --dm-button-danger-bg-color: var(--danger-color-light);
-  --dm-button-danger-bg-color-hover: var(--danger-color);
-  --dm-button-danger-border-color: var(--danger-color-light);
-  --dm-button-danger-border-color-hover: var(--danger-color);
+  --dm-button-danger-bg-color: var(--danger-color-light) !important;
+  --dm-button-danger-bg-color-hover: var(--danger-color) !important;
+  --dm-button-danger-border-color: var(--danger-color-light) !important;
+  --dm-button-danger-border-color-hover: var(--danger-color) !important;
   /* Danger Links and Buttons - Dark */
-  --lm-button-danger-bg-color: var(--danger-color);
-  --lm-button-danger-bg-color-hover: var(--danger-color-darker);
-  --lm-button-danger-border-color: var(--danger-color);
-  --lm-button-danger-border-color-hover: var(--danger-color-darker);
+  --lm-button-danger-bg-color: var(--danger-color) !important;
+  --lm-button-danger-bg-color-hover: var(--danger-color-darker) !important;
+  --lm-button-danger-border-color: var(--danger-color) !important;
+  --lm-button-danger-border-color-hover: var(--danger-color-darker) !important;
 }
 
 .text-primary { color: var(--primary-color); }
@@ -258,7 +258,7 @@ body {
 /* For use in Nix */
 .article-wrapper h1, .article-wrapper h2, .content-wrapper .h1, .content-wrapper .h2, .collapse-header {
   font-family: var(--font-family-sans-serif-display);
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
 .content-wrapper a::after {
