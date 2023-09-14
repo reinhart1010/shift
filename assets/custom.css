@@ -173,43 +173,31 @@
   --lm-button-primary-border-color: var(--primary-color);
   --lm-button-primary-border-color-hover: var(--primary-color-darker);
   /* Secondary Links and Buttons - Light */
-  --dm-link-text-color: var(--secondary-color-light);
-  --dm-link-text-color-hover: var(--secondary-color);
   --dm-button-secondary-bg-color: var(--secondary-color-light);
   --dm-button-secondary-bg-color-hover: var(--secondary-color);
   --dm-button-secondary-border-color: var(--secondary-color-light);
   --dm-button-secondary-border-color-hover: var(--secondary-color);
   /* Secondary Links and Buttons - Dark */
-  --lm-link-text-color: var(--secondary-color);
-  --lm-link-text-color-hover: var(--secondary-color-darker);
   --lm-button-secondary-bg-color: var(--secondary-color);
   --lm-button-secondary-bg-color-hover: var(--secondary-color-darker);
   --lm-button-secondary-border-color: var(--secondary-color);
   --lm-button-secondary-border-color-hover: var(--secondary-color-darker);
   /* Success Links and Buttons - Light */
-  --dm-link-text-color: var(--success-color-light);
-  --dm-link-text-color-hover: var(--success-color);
   --dm-button-success-bg-color: var(--success-color-light);
   --dm-button-success-bg-color-hover: var(--success-color);
   --dm-button-success-border-color: var(--success-color-light);
   --dm-button-success-border-color-hover: var(--success-color);
   /* Success Links and Buttons - Dark */
-  --lm-link-text-color: var(--success-color);
-  --lm-link-text-color-hover: var(--success-color-darker);
   --lm-button-success-bg-color: var(--success-color);
   --lm-button-success-bg-color-hover: var(--success-color-darker);
   --lm-button-success-border-color: var(--success-color);
   --lm-button-success-border-color-hover: var(--success-color-darker);
   /* Danger Links and Buttons - Light */
-  --dm-link-text-color: var(--danger-color-light);
-  --dm-link-text-color-hover: var(--danger-color);
   --dm-button-danger-bg-color: var(--danger-color-light);
   --dm-button-danger-bg-color-hover: var(--danger-color);
   --dm-button-danger-border-color: var(--danger-color-light);
   --dm-button-danger-border-color-hover: var(--danger-color);
   /* Danger Links and Buttons - Dark */
-  --lm-link-text-color: var(--danger-color);
-  --lm-link-text-color-hover: var(--danger-color-darker);
   --lm-button-danger-bg-color: var(--danger-color);
   --lm-button-danger-bg-color-hover: var(--danger-color-darker);
   --lm-button-danger-border-color: var(--danger-color);
