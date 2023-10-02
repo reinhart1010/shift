@@ -1,7 +1,8 @@
 # The complete system font stack
 
 As published on:
-* [Celebrating #InterfaceInPolymorphism through our new system font stack](https://reinhart1010.id/blog/2022/01/31/celebrating-interfaceinpolymorphism-through-our-new-css-system-font-stack)
++ [Celebrating #InterfaceInPolymorphism through our new system font stack.](https://reinhart1010.id/blog/2022/01/31/celebrating-interfaceinpolymorphism-through-our-new-css-system-font-stack)
++ [The serif system font stack that we’re using right now.](https://reinhart1010.id/blog/2023/10/01/the-serif-system-font-stack-that-were-using-right-now)
 
 ## Sans-serif
 
@@ -41,10 +42,16 @@ For small text ("Small"):
 
 ## Serif
 
+For regular text:
+
 ```css
-ui-serif, "Aptos Serif", Constantia, Charter, "STIX Two Text", "Libertinus Serif", "Linux Libertine O", "Linux Libertine G", "Linux Libertine", "DejaVu Serif Condensed", "Bitstream Vera Serif Condensed", "Roboto Serif", "Noto Serif", "Times New Roman", serif
+ui-serif, "Aptos Serif", Constantia, "Publico Text", Charter, "STIX Two Text", "Libertinus Serif", "Linux Libertine O", "Linux Libertine G", "Linux Libertine", "DejaVu Serif Condensed", "Bitstream Vera Serif Condensed", "Roboto Serif", "Noto Serif", "Times New Roman", serif
 ```
 
+For large text ("Display")
+```
+ui-serif, "Aptos Serif", Constantia, "Publico Headline", Charter, "STIX Two Text", "Libertinus Serif", "Linux Libertine O", "Linux Libertine G", "Linux Libertine", "DejaVu Serif Condensed", "Bitstream Vera Serif Condensed", "Roboto Serif", "Noto Serif", "Times New Roman", serif
+```
 ### Additional Recommendations
 
 1. This font stack is **not** optimized for rendering mathematical symbols and equations.
