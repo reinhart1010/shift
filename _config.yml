@@ -1,6 +1,7 @@
 remote_theme: reinhart1010/HAM
+title: "Shift's Digital Garden"
 ham:
-  site_icon: https://user-images.githubusercontent.com/17312341/174424676-fc443509-2c16-4177-91d1-60b39806fb63.png
+  site_icon: "/shift-fullman-lg Background Removed.png"
   site_favicon: null # Your site favicon, in case you have a spare favicon.ico for it
   contributing: # Additional metadata for "Contribute to This Page" section on sidebar
     discuss: # For "Discuss" (or "Talk page" on MediaWiki)
