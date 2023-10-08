@@ -4,7 +4,7 @@
   --font-family-sans-serif-display: "Segoe UI Variable Display", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, "HarmonyOS Sans", Ubuntu, "Roboto Flex", Roboto, "Helvetica Neue", FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
   --font-family-sans-serif-small: "Segoe UI Variable Small", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, "HarmonyOS Sans", Ubuntu, "Roboto Flex", Roboto, "Helvetica Neue", FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
   --font-family-sans-serif-text: "Segoe UI Variable Text", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, "HarmonyOS Sans", Ubuntu, "Roboto Flex", Roboto, "Helvetica Neue", FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-  --font-family-serif: ui-serif, "Aptos Serif", Constantia, Charter, "STIX Two Text", "Libertinus Serif", "Linux Libertine O", "Linux Libertine G", "Linux Libertine", "DejaVu Serif Condensed", "Bitstream Vera Serif Condensed", "Roboto Serif", "Noto Serif", "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  --font-family-serif: ui-serif, "Aptos Serif", Constantia, "Publico Text", Charter, "STIX Two Text", "Libertinus Serif", "Linux Libertine O", "Linux Libertine G", "Linux Libertine", "DejaVu Serif Condensed", "Bitstream Vera Serif Condensed", "Roboto Serif", "Noto Serif", "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
   --font-family-serif-display: var(--font-family-serif) !important;
   --base-border-radius: 0.75rem;
   --base-font-size: 1.8rem;
@@ -16,13 +16,13 @@
   --dark-color: #111827;
   --dm-base-body-bg-color: var(--dark-color);
   --dm-navbar-bg-color: var(--dark-color-light);
-  --indigo-color: #7D55CA;
-  --indigo-color-light: #A990E6;
-  --indigo-color-very-light: #F1E8FF;
-  --indigo-color-dark: #7B5BBE;
-  --indigo-color-very-dark: #4B3578;
-  --indigo-box-shadow-color: rgba(125, 85, 202, 0.3);
-  --indigo-box-shadow-color-darker: rgba(125, 85, 202, 0.6);
+  --indigo-color: #4168D6;
+  --indigo-color-light: #7D9FF0;
+  --indigo-color-very-light: #DFEFFF;
+  --indigo-color-dark: #486BC8;
+  --indigo-color-very-dark: #29407F;
+  --indigo-box-shadow-color: rgba(65, 104, 214, 0.3);
+  --indigo-box-shadow-color-darker: rgba(65, 104, 214, 0.6);
   --indigo-gradient-foil-light: linear-gradient(-30deg, var(--indigo-color) 0%, var(--indigo-color-light) 66.7%, var(--indigo-color-very-light) 100%);
   --indigo-gradient-foil-dark: linear-gradient(300deg, var(--indigo-color-very-dark) 0%, var(--indigo-color-dark) 33.3%, var(--indigo-color) 100%);
   --text-color-on-indigo-color-bg: #ffffff;
@@ -94,17 +94,27 @@
   --pink-gradient-foil-light: linear-gradient(-30deg, var(--pink-color) 0%, var(--pink-color-light) 66.7%, var(--pink-color-very-light) 100%);
   --pink-gradient-foil-dark: linear-gradient(300deg, var(--pink-color-very-dark) 0%, var(--pink-color-dark) 33.3%, var(--pink-color) 100%);
   --text-color-on-pink-color-bg: #ffffff;
+  --violet-color: #7D55CA;
+  --violet-color-light: #A990E6;
+  --violet-color-very-light: #F1E8FF;
+  --violet-color-dark: #7B5BBE;
+  --violet-color-very-dark: #4B3578;
+  --violet-box-shadow-color: rgba(125, 85, 202, 0.3);
+  --violet-box-shadow-color-darker: rgba(125, 85, 202, 0.6);
+  --violet-gradient-foil-light: linear-gradient(-30deg, var(--violet-color) 0%, var(--violet-color-light) 66.7%, var(--violet-color-very-light) 100%);
+  --violet-gradient-foil-dark: linear-gradient(300deg, var(--violet-color-very-dark) 0%, var(--violet-color-dark) 33.3%, var(--violet-color) 100%);
+  --text-color-on-violet-color-bg: #ffffff;
 }
 
 @supports (color: oklch(0% 0 0 / .5)) {
   :root {
-    --indigo-color: oklch(55% 0.175 236);
-    --indigo-color-light: oklch(71% 0.125 236);
-    --indigo-color-very-light: oklch(95% 0.05 236);
-    --indigo-color-dark: oklch(55% 0.15 236);
-    --indigo-color-very-dark: oklch(39% 0.11 236);
-    --indigo-box-shadow-color: oklch(55% 0.175 236 / .3);
-    --indigo-box-shadow-color-darker: oklch(55% 0.175 236 / .6);
+    --indigo-color: oklch(55% 0.175 266);
+    --indigo-color-light: oklch(71% 0.125 266);
+    --indigo-color-very-light: oklch(95% 0.05 266);
+    --indigo-color-dark: oklch(55% 0.15 266);
+    --indigo-color-very-dark: oklch(39% 0.11 266);
+    --indigo-box-shadow-color: oklch(55% 0.175 266 / .3);
+    --indigo-box-shadow-color-darker: oklch(55% 0.175 266 / .6);
     --blue-color: oklch(55% 0.175 236);
     --blue-color-light: oklch(71% 0.125 236);
     --blue-color-very-light: oklch(95% 0.05 236);
@@ -154,6 +164,13 @@
     --pink-color-very-dark: oklch(39% 0.11 356);
     --pink-box-shadow-color: oklch(55% 0.175 356 / .3);
     --pink-box-shadow-color-darker: oklch(55% 0.175 356 / .6);
+    --violet-color: oklch(55% 0.175 296);
+    --violet-color-light: oklch(71% 0.125 296);
+    --violet-color-very-light: oklch(95% 0.05 296);
+    --violet-color-dark: oklch(55% 0.15 296);
+    --violet-color-very-dark: oklch(39% 0.11 296);
+    --violet-box-shadow-color: oklch(55% 0.175 296 / .3);
+    --violet-box-shadow-color-darker: oklch(55% 0.175 296 / .6);
   }
 }
 
