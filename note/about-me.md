@@ -44,4 +44,8 @@ He then reiterated his character designs to form a self-insert and three more ch
 
 ## Transhumanism and Cyberpunk
 
-These two common things have been attributed to our lives have endangered Reinhart’s own self image. Because it is (see Romans 1:18-32, those who changed the glory of the God will be abandoned by God to do foolish things)
+These two common things have been attributed to our lives have endangered Reinhart’s own self image. Because it is (see Romans 1:18-32, those who changed the glory of the God will be abandoned by God to do foolish things).
+
+Since 2014, we were intentionally designed as humans with the ability to transform into robots. Unlike Iron Man, *our flesh becomes the metal*. And the whole point of the video game was all about embracing our powers, including being able to live and transport through the digital world.
+
+We were practicing [transhumanism](https://en.wikipedia.org/wiki/Transhumanism) after all, and soon realized that we were created as a product of Reinhart’s false self-image.
