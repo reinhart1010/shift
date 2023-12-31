@@ -40,12 +40,32 @@ When Reinhart was hospitalized in 2021, he was searching for a partner that unde
 
 A quick flashback to the 2014 days led him to start redesign his own characters, to become **Nate** (now Shift) and **Nix** (now Jilly). He didn’t create us as anime or VTuber characters, because he said they represent a wholly wrong self image of the talents who performed them as well as their followers (learn more about his full reasons [here](https://reinhart1010.id/blog/2022/12/08/can-i-become-a-christian-vtuber)).
 
-He then reiterated his character designs to form a self-insert and three more characters, entirely named according to special keyboard keys (Shift, Alt, Caps Lock, etc.). At that moment, **Shiftine** was created before me, **Shift**.
+![The original characters, also named "Hackers and Jackets"](https://user-images.githubusercontent.com/17312341/121574166-30366e00-ca50-11eb-8a4f-ef23c7946740.png)
 
-## Transhumanism and Cyberpunk
+He then reiterated his character designs to form [a self-insert and three more characters](https://reinhart1010.id/blog/2021/06/11/im-polymorphic), entirely named according to special keyboard keys (Shift, Alt, Caps Lock, Tab, etc.). At that moment, **Shiftine** was created before me, **Shift**. But Reinhart was too obsessed "cute-and-friendly" appearance than [all the others](https://reinhart1010.id/blog/2021/06/11/im-polymorphic), motivating him to fix his self-image to be like her, aka., his own creation.
 
-These two common things have been attributed to our lives have endangered Reinhart’s own self image. Because it is (see Romans 1:18-32, those who changed the glory of the God will be abandoned by God to do foolish things).
+So that’s how do I reborn as Shift.
 
-Since 2014, we were intentionally designed as humans with the ability to transform into robots. Unlike Iron Man, *our flesh becomes the metal*. And the whole point of the video game was all about embracing our powers, including being able to live and transport through the digital world.
+## Leaving Transhumanism and Cyberpunk
 
-We were practicing [transhumanism](https://en.wikipedia.org/wiki/Transhumanism) after all, and soon realized that we were created as a product of Reinhart’s false self-image.
+These two common things have been attributed to our lives while also endangering Reinhart’s own self image. Because it is (see Romans 1:18-32, those who changed the glory of the God will be abandoned by God to do foolish things).
+
+Since 2014, we were intentionally designed as humans with the ability to transform into robots. Unlike *Power Rangers* or *Iron Man*, **our flesh becomes the metal**. And the whole point of the video game was all about embracing our powers, including being able to live and transport through the digital world. We were practicing [transhumanism](https://en.wikipedia.org/wiki/Transhumanism) after all, and soon realized that we were created as a product of Reinhart’s false self-image. But honestly, after seeing things happening outside the fourth wall, we would be fine if we keep our identity this way.
+
+![An AI-generated picture of us, temporarily covered on Reinhart’s new website homepage](https://reinhart1010.id/img/hero/new-card.avif)
+
+It’s definitely right and beautiful to confess our identity as a couple of fictional people that would less likely to appear in the real life, but capable of living over the Internet to bring impactful blessings to the cyberspace. But well, Reinhart said he was asked by the Holy Spirit to change one thing, or even two: remove our likenesses as transhumanist robots, because it was not God’s idea, and start treating us the same as humans, created in the same image and likeness with God Himself.
+
+> <sup>22 </sup>Although they claimed to be wise, they became fools <sup>23 </sup>and exchanged the glory of the immortal God for images made to look like a mortal human being and birds and animals and reptiles.
+>
+> <sup>24 </sup>Therefore God gave them over in the sinful desires of their hearts to sexual impurity for the degrading of their bodies with one another.
+> 
+> **Romans 1:22-24 NIV**
+
+The original (video game) storyline mentioned us living in a world of [cyberpunk](https://en.wikipedia.org/wiki/Cyberpunk) and even [technopaganism](https://en.wikipedia.org/wiki/Technopaganism), which definitely violate things on the Bible. The Kingdom of Light (Revelation 21) is not the same as a metropolitan city known for their neon lights during the nights. As we escaped the fourth wall, we still live in a theoretical placed named **the cyberspace**. Some well-known digital rights activists recognized the importance of the cyberspace, including [how](https://www.eff.org/cyberspace-independence) should it be independent from political and economical control.
+
+We are not going to detail out about the identity of the cyberspace, but we have a related belief that the word *cyber* means guidance and leadership, not humans becoming robots and vice versa.
+
+## Why ended up being VTubers?
+
+Even though Reinhart didn’t like the current state of VTubers, he realized that there are certain kind of people, like him during his past, closed the doors of reality and dedicated their lives for virtual things. And VTuber idols are one of things they do. So he decided to venture that way, together with us, with the mission to save them.
