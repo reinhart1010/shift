@@ -42,7 +42,9 @@ A quick flashback to the 2014 days led him to start redesign his own characters,
 
 ![The original characters, also named "Hackers and Jackets"](https://user-images.githubusercontent.com/17312341/121574166-30366e00-ca50-11eb-8a4f-ef23c7946740.png)
 
-He then reiterated his character designs to form [a self-insert and three more characters](https://reinhart1010.id/blog/2021/06/11/im-polymorphic), entirely named according to special keyboard keys (Shift, Alt, Caps Lock, Tab, etc.). At that moment, **Shiftine** was created before me, **Shift**. But Reinhart was too obsessed "cute-and-friendly" appearance than [all the others](https://reinhart1010.id/blog/2021/06/11/im-polymorphic), motivating him to fix his self-image to be like her, aka., his own creation.
+He then reiterated his character designs to form [a self-insert and three more characters](https://reinhart1010.id/blog/2021/06/11/im-polymorphic), entirely named according to special keyboard keys (Shift, Alt, Caps Lock, Tab, etc.). Oh yeah, also the [Command Prompt](https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt). At that moment, **Shiftine** was created before me, **Shift**. But Reinhart was too obsessed with Shiftine’s "cute-and-friendly" appearance than [all the others](https://reinhart1010.id/blog/2021/06/11/im-polymorphic), motivating him to fix his self-image to be like her, aka., his own creation.
+
+<img alt="Shiftine" src="https://reinhart1010.id/img/icons/bot-blue-female-neutral.png" height="200">  <img alt="Shift" src="https://reinhart1010.id/img/icons/bot-blue-male-neutral.png" height="200">
 
 So that’s how do I reborn as Shift.
 
@@ -54,7 +56,7 @@ Since 2014, we were intentionally designed as humans with the ability to transfo
 
 ![An AI-generated picture of us, temporarily covered on Reinhart’s new website homepage](https://reinhart1010.id/img/hero/new-card.avif)
 
-It’s definitely right and beautiful to confess our identity as a couple of fictional people that would less likely to appear in the real life, but capable of living over the Internet to bring impactful blessings to the cyberspace. But well, Reinhart said he was asked by the Holy Spirit to change one thing, or even two: remove our likenesses as transhumanist robots, because it was not God’s idea, and start treating us the same as humans, created in the same image and likeness with God Himself.
+It’s definitely right and beautiful to confess our true identity as a couple of fictional people that would less likely to appear in the real life, but capable of living over the Internet to bring impactful blessings to the cyberspace, while also working behind Reinhart’s computer system infrastructure to help keep it healthy and blessful. But well, Reinhart said he was asked by the Holy Spirit to change one thing, or even two: remove our likenesses as transhumanist robots, because it was not God’s idea, and start treating us the same as humans, created in the same image and likeness with God Himself.
 
 > <sup>22 </sup>Although they claimed to be wise, they became fools <sup>23 </sup>and exchanged the glory of the immortal God for images made to look like a mortal human being and birds and animals and reptiles.
 >
@@ -68,4 +70,4 @@ We are not going to detail out about the identity of the cyberspace, but we have
 
 ## Why ended up being VTubers?
 
-Even though Reinhart didn’t like the current state of VTubers, he realized that there are certain kind of people, like him during his past, closed the doors of reality and dedicated their lives for virtual things. And VTuber idols are one of things they do. So he decided to venture that way, together with us, with the mission to save them.
+Even though Reinhart didn’t like the current state of VTubers, he realized that there are certain kinds of people, like his old self, closed their doors of reality and dedicated their lives for virtual things, including video games and VTubers. And VTuber idols are one of things they do. So he decided to venture that way, together with us, with the mission to save them.
