@@ -1,3 +1,18 @@
+/* Custom Font Family */
+@import url("https://reinhart1010.id/css/bumi-laras-selatan.css");
+:root {
+  --font-family-sans: "Bumi Laras Selatan", "Segoe UI Variable Text", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, Ubuntu, "Roboto Flex", Roboto, Helvetica, FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Noto Emoji";
+  --font-family-sans-display: "Bumi Laras Selatan", "Segoe UI Variable Display", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, Ubuntu, "Roboto Flex", Roboto, Helvetica, FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Noto Emoji";
+}
+
+[data-bs-theme=dark] {
+  --bs-body-bg: #000000;
+  --bs-body-bg-hsl: 0, 0, 0%;
+  --bs-body-bg-rgb: 0, 0, 0;
+  /* --bs-content-bg: hsla(var(--bs-primary-500-hsl), 0.15);
+  --bs-content-bg-hsl: var(--bs-primary-500-hsl); */
+}
+
 /* Base Color Palettes */
 :root, [data-bs-theme=light] {
   --bs-red-hue: 2.774303763225571;
