@@ -34,6 +34,7 @@ The game's concepts are still broken and unfinished, but well, there's a whole n
 > The news spread to the entire kingdom. Then, the King called both of them to the castle, which is known as the `127.0.0.1`. Some civilians are also calling the palace `0.0.0.0` or `localhost`.
 
 > [!NOTE]
+> 
 > At that time, Reinhart didn't know that his story contained elements that are against the true Christian belief. For instance, he first knew about occultic elements in common video games in 2019. His renewed interests in Christian faith in 2022 also redefined how his original characters should appear and behave.
 
 ### 2019-2020: A college hiatus and being an OOP fanatic
