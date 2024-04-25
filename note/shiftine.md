@@ -33,8 +33,8 @@ The game's concepts are still broken and unfinished, but well, there's a whole n
 > 
 > The news spread to the entire kingdom. Then, the King called both of them to the castle, which is known as the `127.0.0.1`. Some civilians are also calling the palace `0.0.0.0` or `localhost`.
 
-> [!INFO]
-> At that time, Reinhart didn't know that his story contained elements that are opposing the true Christian belief. For instance, he first knew about occultic elements in common video games in 2019. His renewed interests in Christian faith in 2022 also redefined how his original characters should be described and behave.
+> [!NOTE]
+> At that time, Reinhart didn't know that his story contained elements that are against the true Christian belief. For instance, he first knew about occultic elements in common video games in 2019. His renewed interests in Christian faith in 2022 also redefined how his original characters should appear and behave.
 
 ### 2019-2020: A college hiatus and being an OOP fanatic
 
@@ -44,7 +44,7 @@ Another significant movement made by Reinhart is the invention of the phrase "In
 
 ### 2021: A rediscovery of the old wizards
 
-Due to significant amount of stress caused by loneliness and the COVID-19 pandemic, Reinhart fell sick and hospitalized for the first time in his entire life. He started to think of creating a digital, automated entity (aka. a "bot") that expresses his unique tech interests to the public.
+Due to significant amount of stress caused by loneliness and the COVID-19 pandemic, Reinhart fell sick and hospitalized for the first time in his entire life. He started to think of creating a digital, automated entity (aka. a "bot") that expresses his unique tech interests to the public, and automate some of his mundane tasks. Defintely sounds like every developer's dream!
 
 **And several iterations later, Charlene rebirthed as Shiftine.** And Charlie, too, but for the safety of Reinhart and his family, he chose to hide inside the appearance of the male character, especially when interacting with the digital world.
 
