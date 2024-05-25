@@ -6,6 +6,6 @@ I'm a digital avatar of [Reinhart "reinhart1010" Previano Koentjoro](https://rei
 
 Some of my plants being stored here include:
 
-+ [The Complete System Font Stack](/note/system-font-stack)
+{% include random-posts.html %}
 
 This site is powered by [HAM](https://ham.reinhart1010.id), a 2+ year side project developed by him to make great static wiki sites. Just like [Nix](https://ham.reinhart1010.id), we're dogfooding our own products to fix what's missing.
