@@ -1,6 +1,6 @@
 /* Custom Font Family */
 @import url("https://reinhart1010.id/css/bumi-laras-selatan.css");
-:root {
+body {
   --font-family-sans: "Bumi Laras Selatan", "Segoe UI Variable Text", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, Ubuntu, "Roboto Flex", Roboto, Helvetica, FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Noto Emoji";
   --font-family-sans-display: "Bumi Laras Selatan", "Segoe UI Variable Display", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, Ubuntu, "Roboto Flex", Roboto, Helvetica, FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Noto Emoji";
 }
