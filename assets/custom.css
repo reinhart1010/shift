@@ -577,3 +577,22 @@ body {
   --bs-fuchsia-bg-subtle: hsl(var(--bs-fuchsia-hue), var(--bs-fuchsia-saturation), 10%);
   --bs-fuchsia-border-subtle: var(--bs-fuchsia-600);
 }
+
+[data-bs-theme=dark] .text-primary {
+  color: hsla(var(--bs-primary-100-hsl),var(--bs-text-opacity)) !important
+}
+[data-bs-theme=dark] .text-secondary {
+  color: hsla(var(--bs-secondary-100-hsl),var(--bs-text-opacity)) !important
+}
+[data-bs-theme=dark] .text-info {
+  color: hsla(var(--bs-info-100-hsl),var(--bs-text-opacity)) !important
+}
+[data-bs-theme=dark] .text-success {
+  color: hsla(var(--bs-success-100-hsl),var(--bs-text-opacity)) !important
+}
+[data-bs-theme=dark] .text-warning {
+  color: hsla(var(--bs-warning-100-hsl),var(--bs-text-opacity)) !important
+}
+[data-bs-theme=dark] .text-danger {
+  color: hsla(var(--bs-danger-100-hsl),var(--bs-text-opacity)) !important
+}
