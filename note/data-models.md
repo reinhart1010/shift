@@ -103,7 +103,7 @@ There are also "static methods" in OOP, but that's quite out-of-scope from under
 
 Alright, so with data models, we can systematically assign the context for each groups of data. But another important part of constructing useful information and knowledge from these data is to learn how these models and groups **relate to each other**.
 
-You might find some arrows in Entity Relation and Class Diagrams quite intimidating. Like, the one that looks like ">|———O<"?
+You might find some arrows in Entity Relation and Class Diagrams quite intimidating. Like, the one that looks like ">&#124;———O<"?
 
 Good news! Actually, we can actually simplify these into 3 kinds of **multiplicity**. Let's say that the relation from a model (A) to another (B) is:
 
