@@ -93,7 +93,7 @@ In many cases, we may simply need to create, read, update, and delete. That's wh
 | Define | Define a new form of data model | Declare a Class/Interface/Type (TypeScript) | CREATE/ALTER TABLE | *None* |
 | Create | Create a new **data group** that follows the properties and actions of the model | Constructor, Setters, and some static methods to aid constructors | INSERT | POST |
 | Search/Query | Search for instances of data that match a specific criteria, usually in a list, set, or hashmap | (Related to list, set, and map-based data types) `filter()`, `foreach()`, `map()` | SELECT | GET or POST |
-| Read | Get one or some specific property of the grouped data | Public properties and Getters | SELECT | GET | SELECT | GET or POST |
+| Read | Get one or some specific property of the grouped data | Public properties and Getters | SELECT | GET |
 | Update | Update one or more properties of the data group | Setters | UPDATE | POST or PUT |
 | Delete | Update one or more properties of the data group | Setters | UPDATE | DELETE |
 
