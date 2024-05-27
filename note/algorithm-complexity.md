@@ -50,6 +50,6 @@ void draw_square(int size) {
 }
 ```
 
-And, you may also see things like **O(log(*n*))**. It means none other than **O(<sup>2</sup>log(*n*))** or **O(log<sub>2</sub>(*n*))**, since we mostly care about numbers in the powers of 2. You might found it in some advanced algorithms like binary trees, and that means
+And, you may also see things like **O(log(*n*))**. It means none other than **O(<sup>2</sup>log(*n*))** or **O(log<sub>2</sub>(*n*))**, since we mostly care about numbers in the powers of 2. You might found it in some advanced algorithms like binary trees, and that means an input of 8 items will return **O(3)** (because 8 = 2<sup>3</sup>), and an input of 12 items will return **O(4)** (because 12 ≈ 2<sup>3.585</sup>, and we round that 3.585 up to become 4).
 
 In reality, the complexity of algorithms may not be as accurate as it is described. For example, a complexity of an algorithm described as **O(*n*<sup>2</sup>)** may actually be an **O(*n*(*n*+(*x*-1))+*y*)**. It's okay to simplify these to get the gist of the complexity.
