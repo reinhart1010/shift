@@ -6,6 +6,7 @@ body {
   --bs-font-size-base: 1rem;
   --bs-font-size-sm: 0.875rem;
   --bs-font-size-lg: 1.25rem;
+  --bs-body-font-size: 1rem;
 }
 
 [data-bs-theme=dark] {
