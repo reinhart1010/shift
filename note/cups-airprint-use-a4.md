@@ -3,7 +3,6 @@ external_links:
   - title: apple/cups#371 on GitHub
     url: https://github.com/apple/cups/issues/371
     icon: bi bi-github
-external_links:
   - title: apple/cups#6009 on GitHub
     url: https://github.com/apple/cups/issues/6009
     icon: bi bi-github
