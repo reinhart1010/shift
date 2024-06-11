@@ -7,9 +7,11 @@ external_links:
     url: https://github.com/apple/cups/issues/6009
     icon: bi bi-github
 ---
-# Use A4 paper for printing with CUPS and AirPrint
+# Use A4 paper by default for printing with CUPS and AirPrint
 
-When you try to set up a self-hosted AirPrint print server with Linux and CUPS, your iPhone or iPad may only allow you to print in Legal and Letter sizes, instead of your-preferred A4. You can set up the following steps to make sure that your iPhone or iPad uses the A4 size by default.
+When you try to set up a self-hosted AirPrint print server with Linux and CUPS, your iPhone or iPad may only allow you to print in Legal and Letter sizes, instead of your-preferred A4.
+
+You can set up the following steps to make sure that your iPhone or iPad uses the A4 size by default.
 
 1. Open `/etc/cups/cupsd.conf`, then set or add (if not exists) `DefaultPaperSize A4` (instead of `DefaultPaperSize Letter`).
 2. Change the value on `/etc/papersize` to `a4` (instead of `letter`).
