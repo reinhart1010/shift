@@ -17,6 +17,16 @@ body {
   --bs-content-bg-hsl: var(--bs-primary-500-hsl); */
 }
 
+article {
+  font-weight: 450;
+  letter-spacing: -.0015em;
+}
+
+[data-bs-theme=dark] article {
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
 /* Base Color Palettes */
 :root, [data-bs-theme=light] {
   --bs-red-hue: 2.774303763225571;
