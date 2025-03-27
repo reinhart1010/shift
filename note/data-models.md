@@ -2,7 +2,19 @@
 
 A **data model** is simply an **exemplary role model** for organizing data, that is, how certain data should look, be organized, and behave in general.
 
+> [!WARNING]
+> 
+> **Update 27 March 2025:** Significant addition and revision on the [Relationships](#relationships) section. This includes differentiating a Relation (which is practically known as a Table) with a Relationship (as in "... between two tables").
+> 
+> Also, Reinhart is now studying for Master of Cybersecurity in Monash University. (#- );
+
 In software design, data models are fundamental to **Object-Oriented Programming (OOP)** (as object classes or interfaces) and **Database Design** (as entities). In fact, many programmers like Reinhart unify both concepts into one<sup>[A]</sup>, so it's easier to remember the **properties** (aka. the quantified characteristics) and **actions** (what the model could do or be used for; also known as *methods*) of the model, from their favorite database systems up to their programming languages.
+
+> [!NOTE]
+> 
+> This article is primarily written for beginners, and oriented towards computer software compared to computer systems.
+> 
+> The difference between these two is that a computer system may consist of more than one piece of software, and because of that, they often favor towards more abstract concepts and terms such as "relation" over "table" and "class".
 
 When we talk about a data model, we're not talking about one specific kind of data, but **a group of data assigned according to a related context.** It means that each data contained **inside** a data model should be related in a certain way. And that also means, data models are an efficient way to [organize data to produce an information](/note/data-information-knowledge).
 
@@ -14,7 +26,8 @@ When we talk about a data model, we're not talking about one specific kind of da
 
 The first thing to define a data model is defining its **class**, that is, what the data do actually represent. Do they represent a certain fruit? Or a certain information about a place? Or a unique internet user like you? Or some exotic abstract things such as `Ext4FileSystemConnector`?
 
-+ In (mainly relational and document-based NoSQL) database systems, it is possible to organize similar entries into **Entities** or **Tables**. Each entity has their own [properties](#properties), as we'll learn shortly, which will translate into a set of columns in a large table.
++ In [relational algebra](https://en.wikipedia.org/wiki/Relational_algebra), the popular mathematical concept behind database systems, these things are simply called **Relations**. The word "relation" here do **not** describe the [relationship](#relationships) between one "class" and another. In fact a "relation" *is* the same thing as the "class" as described throughout this article.
++ In (mainly relational and document-based NoSQL) database systems, it is possible to organize similar entries into **Entity Sets** or **Tables**. Each entity set has their own [properties](#properties), as we'll learn shortly, which will translate into a set of columns in a large table.
 + Same thing with "object classes" in OOP, or simply **"Class"**. Each class can have multiple **instances** of it, just like multiple rows of data in *that* table.
 + Classical **structs** in some programming languages (that rejects or predates the age of OOP) provides similar functionality with object classes in OOP. Just that the concept of [inheritance and polymorphism](#inheritance-and-polymorphism) wasn't well-baked in structs.
 
@@ -28,7 +41,7 @@ Now, there's another geeky term, I mean, Object-Oriented term called the **Inter
 > 
 > Meanwhile, an Interface adopted by A and B means that both class contain these similar things, and a variable or a property accepting the interface means that it will treat A and B as common through the same agreed set of shared properties and actions. That means that any methods calling the variable cannot call A or B-specific actions which are not covered by the interface, unless through type-checking and casting mechanisms.
 
-Interface is an advanced topic commonly not covered in databases, since every table or entity in the database contain these common [actions](#actions) and even [traits](#properties):
+Interface is an advanced topic commonly not covered in databases, as every table or entity set in the database virtually contain these same common [actions](#actions) and even [traits](#properties):
 
 + **A metadata that indicates the time when the data object was created or modified.** Many ORM libraries and frameworks often add these metadata properties, like `created_at` and `updated_at` in [GORM](https://gorm.io) and [Laravel](https://laravel.com).
 + A way to **create and insert** a new group of data into the model. Yep, I mean things like SQL's `INSERT` command.
@@ -50,7 +63,7 @@ Well, it's still possible to define structs or OOP classes with zero properties,
 > 
 > <sup>[B]</sup> Unless if we care about [inheritance](#inheritance-and-polymorphism) and the difference between class names in OOP, like `BaseError` vs `NetworkRequestError`.
 
-If you prefer the visual way to explain this, take an entity out from **Entity Relationship Diagram (ERD)**, for example.
+If you prefer the visual way to explain this, take an entity set out from **Entity Relationship Diagram (ERD)**, for example.
 
 <pre class="mermaid">
 erDiagram
@@ -99,19 +112,36 @@ In many cases, we may simply need to create, read, update, and delete. That's wh
 
 There are also "static methods" in OOP, but that's quite out-of-scope from understanding the basics of the data models. Note that some of those methods do not actually relate to the data model, especially if the returned data type is neither the model nor the specific property of a model itself.
 
-## Relations
+## Relationships
 
 Alright, so with data models, we can systematically assign the context for each groups of data. But another important part of constructing useful information and knowledge from these data is to learn how these models and groups **relate to each other**.
 
 You might find some arrows in Entity Relation and Class Diagrams quite intimidating. Like, the one that looks like ">&#124;———O<"?
 
-Good news! Actually, we can actually simplify these into 3 kinds of **multiplicity**. Let's say that the relation from a model (A) to another (B) is:
+Good news! Actually, we can actually simplify these into 3 kinds of **Connectivity**. Note that some computer science courses call this instead as **Multiplicity**, which is an umbrella term for both Connectivity and Cardinality. We'll explain the difference between the two later.
+
+Let's say that the relationship from a model (A) to another (B) is:
 
 1. **Exactly, requires a specific amount (e.g. one) of B.** That means each data classified under the model A must be assigned to an *N* amount of data classified under B.
 2. **Could be as many as possible.** Quite self-explanatory, but remember. that these could either mean "at least 1 but could end up many", or simply "optional and unlimited".
 3. **Could be in a range of of amounts.** It could be "between 2 to 5 amounts of B" and so on.
 
-We commonly define multiplicity of relationships by describing the rules for each ends. For example, a "one-to-many" relationship from A to B means that A could have an unlimited number of relationships to B, but every data under B must be related to exactly one instance of A.
+We commonly define the connectivity of relationships by describing the rules for each ends. For example, a "one-to-many" relationship from A to B means that A could have an unlimited number of relationships to B, but every data under B must be related to exactly one instance of A.
+
+While many system designers are satisfied enough with this, others do not. For example, how to denote a relationship where a `Team` may only have up to 5 `Member`s? This is why **Cardinality**, a stricter form of Connectivity, is being used. Insteead of symbols like "->&#124;———O<-", they simply use numbers and alphabets. Here is a difference between the two:
+
+| Relationship Type | Connectivity | Cardinality |
+|---|---|---|
+| Zero or One ("Optional, but only up to one allowed") | -O&#124;——— | (0,1) |
+| One and only One (always required) | -&#124;&#124;——— | (0,1) |
+| Zero or Many ("OK to be empty, OK to be so many") | ->O——— | (0,M) |
+| One or Many ("At least one, but can be more") | ->&#124;——— | (1,M) |
+
+And there's some things Cardinality can represent but not Connectivity, such as **(2,5)** to represent "between 2 and 5 instances/occurences/amounts of B".
+
+If you ever being presented with a diagram that shows these symbols, the symbols on one side (Class / Entity Set / Relation) applies to the opposing side of it.
+
+That means if "[A] ->&#124;———O<- [B]", A may be connected to zero or many instances of B, but B **must** be connected to at least 1 or more instances of A.
 
 ## Inheritance and Polymorphism
 
@@ -163,6 +193,10 @@ At School of Computer Science, BINUS University, we commonly have a standard lis
 + Connolly, T. M., & Begg, C. E. (2015). *Database systems: A practical approach to design, implementation, and management* (6. ed., global ed). Pearson.
 + Dennis, A., Wixom, B. H., & Roth, R. M. (2018). *Systems analysis and design* (7th ed). Wiley.
 + Satzinger, J. W., Jackson, R. B., & Burd, S. D. (2016). *Systems analysis and design: In a changing world* (Seventh edition). Cengage Learning.
+
+### Monash University Reference Textbooks
+
++ Coronel, C., & Morris, Steven (2023). *Database Systems: Design, implementation, and management* (14th ed.). Cengage Learning.
 
 ### Some Useful Free Resources
 
