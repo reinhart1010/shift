@@ -14,7 +14,15 @@ In general, *End of 10* tells you some good things about Linux:
 
 Even though Linux is good, and Reinhart have been experienced with Linux distributions since 2015, the *End of 10* does not generally inform users of "what is totally different between Linux and Windows" (these may be explained on repair cafes set up by the initiative), because these info can be important to support our new user's work with Linux.
 
-The *End of 10* is also sponsored by organizations who discreetly promotes certain political agendas, which is highly reflected in their communities. Even though you are just a user or a prominent contributor, you will be very likely to be exposed into these as well. Because just like the wider Free Software and Open Source communities, the Linux community generally influences you to contribute as well.
+The *End of 10* is also sponsored by organizations who discreetly promotes certain political agendas, which is highly reflected in their communities. Even though you are just a user or a prominent contributor, you will be very likely to be exposed into these as well. Because just like the wider Free Software and Open Source communities, the Linux community generally influences you to contribute.
+
+> Historically, Reinhart came to the Linux world after learning more about Mozilla with their separate open-source projects such as Firefox and [Firefox OS](https://en.wikipedia.org/wiki/Firefox_OS).
+> 
+> Reinhart's significant contributions to [OpenStreetMap](https://openstreetmap.org) also come *after* learning with the Linux community.
+> 
+> In most cases, one FLOSS contributor could easily be introduced to other FLOSS contributor. For example, from Linux to LibreOffice and Fediverse and GNU/FSF. This is why they share common ideologies and common strategies to invite new users, convert them to community members, before finally recruit them to continue the evolution of their projects.
+> 
+> Note that Reinhart does not discourage this recruitment pipeline&mdash;it's also the reason why he advanced through his tech career.
 
 As part of Reinhart's mission of protecting *his* and partnering communities, we should ensure the adoption of these products should be frictionless, from the Consumption layer, up to the Business, Politics, and Philosophy. Any frictions between these layers could contribute conflicts between the expanding Linux communities with ours, which could make Linux feel unproductive and opposing to our people's philosophical goals.
 
