@@ -30,13 +30,13 @@ This is why this document exists, guiding people to significant technical, polit
 
 > Contributions are welcome, but we currently do not adopt certain Code of Conduct (like the Contributor Covenant) due to philosophical conflicts of interests between them and us.
 
-## Unlike macOS and Windows, Linux is mostly a [case-sensitive](https://en.wikipedia.org/wiki/Case_sensitivity) operating system.
+## Unlike macOS and Windows, Linux is mostly a case-sensitive operating system.
 
 That means when working with files, `Untitled 1.txt` (with uppercase U) will be treated differently with `untitled 1.txt` (with lowercase u).
 
 Same with folders, too. `/home/ubuntu/Downloads` (the default Downloads folder comes with an uppercase D) will be considered different than `/home/ubuntu/downloads` (with lowercase d).
 
-## You most likely cannot "mix-and-match" apps designed for different *desktop environments* (DEs).
+## You most likely cannot "mix-and-match" apps designed for different Desktop Environments (DEs).
 
 When you decided to have someone to install Linux for you, make sure they give you some information about something called **Desktop Environment (DE)**.
 
@@ -71,7 +71,7 @@ Some Desktop Environments also provide their curated list of those DE-specific a
 
 If you are unsure which apps do work best for your desktop, consult with your local Linux community.
 
-## Some Linux projects who officially sponsor *End of 10* embrace prohibitive political agendas.
+## Some Linux projects who officially sponsor End of 10 embrace prohibitive political agendas.
 
 The *[End of 10]* movement is coordinated between organizations that promote shared political views on Linux, and internally expects to discourage users who have differing views to contribute to the community.
 
