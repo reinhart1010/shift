@@ -89,13 +89,15 @@ Again, on some (not entirely all of) Linux communities and *End of 10* sponsors.
 
 + They want you to **drop Google Search and Microsoft Bing** in favor of DuckDuckGo, Qwant, or Startpage for "improved privacy".
 + They want you to **drop Microsoft Office** for LibreOffice, Calligra, not just for "improved privacy", free from paid subscriptions, but also supporting their open file formats: "OpenDocument" vs confusingly "(Microsoft) Office Open XML".
+  - Although officially available for Linux, they may not recommend [(Kingsoft) WPS Office](https://www.wps.com/) and [SoftMaker Office](https://www.softmaker.com/en/products/softmaker-office/)/[FreeOffice](https://www.freeoffice.com/) for its proprietary nature.
 + They want you to **get away from proprietary, royalty-bound codecs, file formats** such as MP3, WAV, DOCX, HEVC/HEIC, RAR, and NTFS; replacing them with *open standards* such as OPUS, FLAC, ODT, AV1/AVIF, `.tar.gz`, and ext4.
   - Note that these alternatives are *not* compatible with the proprietary formats (e.g. an OPUS file cannot be opened in an MP3 player).
   - Because in general, yes, access to some of proprietary formats legally require you (and the Linux community) to purchase a license.
 
-Certain communities **discourages you to use "nonfree" software.** This included software marketed as "free" (like Google Chrome, Spotify, and NVIDIA drivers) but require additional subscriptions, or does not allow you to build and distribute the software yourself.
+Certain communities **discourages you to use "nonfree" software.** This included software marketed as "free" (like Google Chrome, Spotify, and NVIDIA drivers) but require additional subscriptions, restrictive End-User License Agreements (EULAs), or does not allow you to build and distribute the software yourself.
 
 > [!NOTE]
+> 
 > Reinhart formally supports this stance as part of the Computer System Multiculturalism initiative.
 
 These are often considered as either proprietary [freemium](https://en.wikipedia.org/wiki/Freemium) or [shareware](https://en.wikipedia.org/wiki/Shareware), and Debian have some good reasons on [why they are not "Free Software"](https://people.debian.org/~bap/dfsg-faq.html).
@@ -109,6 +111,7 @@ Some Linux communities and prominent corporate sponsors imply their "users" to b
 We acknowledge a significant amount of users who wish to migrate to Linux but exercising their faith that effectively breaches these community rules, such as those concerning LGBTQIA+ users and contributors.
 
 > [!IMPORTANT]
+> 
 > The Indonesian community is dominated by Christian and Islam believers in which their religious teachings strictly prohibits homosexuality and transgenderism.
 
 We acknowledge that our people also **need to use these capitalist tech companies' products** (e.g. Microsoft Teams), especially in your work or study. For example, Reinhart cannot entirely use GNU/Linux to study in Monash University due to [specialized software required for eExams](https://www.monash.edu/students/admin/assessments/exams/device-specs).
